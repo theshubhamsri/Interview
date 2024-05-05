@@ -5,6 +5,7 @@ import java.util.List;
 
 public final class MyImmutableClass {
     private final String name;
+    //Making list final means it's reference will not change
     private final List<Object> petNameList;
 
     MyImmutableClass(String name, List<Object> petNameList) {
