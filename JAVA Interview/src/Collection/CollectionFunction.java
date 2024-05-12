@@ -14,7 +14,8 @@ public class CollectionFunction {
         System.out.println("size:" + values.size());
         //isEmpty
         System.out.println("isEmpty:" + values.isEmpty());
-        //containsSystem.out.println("contains: values.contains(5));
+        //contains
+        System.out.println("contains:"+ values.contains(5));
         values.add(5);
         System.out.println("added" + values.contains(5));
         //remove using index
